@@ -1,0 +1,132 @@
+
+
+
+header{
+    text-align:left;
+    margin-left: 20%;
+    color: rgb(193, 243, 252);
+    font-size: 200%;
+    margin-top: 5%;
+}
+body{
+    background: linear-gradient(to right, rgb(193, 243, 252), rgb(5, 129, 187));
+   
+    
+    backdrop-filter:  blur(8px)
+  
+  }
+  
+ 
+
+.textEncrypt{
+    offset-block-start: auto;
+    width: 50%;
+    height: 700px;
+    background-color: #000 ;
+    color: #fff;
+    opacity: .5;
+    position: absolute;
+    text-transform: lowercase;
+    margin-top: 5%;
+    border: none;
+    border-radius: 2%;
+    margin-left: 3%;
+    text-align: start;
+    font-size: 200%;
+    background-color: transparent 80%;
+    
+}
+
+
+.textEncrypt:focus {
+    outline:none
+}
+
+    main{
+        display: flex
+    }
+
+.message{
+    width: 35%;
+    height: 700px;
+    background-color: rgb(53, 53, 53) ;
+    color: #fff;
+    opacity: .5;
+    position: absolute;
+    margin-left: 60%;
+    border-radius: 2%;
+    margin-top: 5%;
+    border: none;
+    
+    
+}
+.message:focus{
+    outline: none;
+}
+
+.buttons{
+
+    display: flex;
+}
+
+.buttonEncrypt{
+    width: 20%;
+    cursor:pointer;
+    position: absolute;
+    border-radius: 5px;
+    margin-left: 6%;
+    margin-top: 800px;
+    border: none;
+    font-style: oblique;
+    font-size: 150%;
+    background-color: rgb(216, 244, 248);
+    
+}
+.buttonDecrypt{
+   
+    width: 20%;
+    cursor:pointer;
+    position: absolute;
+    border-radius: 5px;
+    margin-left: 30%;
+    margin-top: 800px;
+    border: none;
+    font-style: oblique;
+    font-size: 150%;
+    color: rgb(193, 243, 252);
+    background-color: rgb(43, 89, 107);
+
+}
+
+.buttonErase{
+    width: 7%;
+    cursor:pointer;
+    position: absolute;
+    border-radius: 5px;
+    margin-left: 55%;
+    margin-top: 800px;
+    border: none;
+    font-style: oblique;
+    font-size: 150%;
+    background-color: rgb(216, 244, 248);
+    
+}
+
+
+.buttonCopy{
+
+    width: 15%;
+    
+    margin-left: 70%;
+    position: absolute;
+    margin-top: 800px;
+    border: none;
+    border-radius: 5px;
+    font-style: oblique;
+    font-size: 150%;
+    background-color: rgb(193, 243, 252);
+   
+}
+
+
+
