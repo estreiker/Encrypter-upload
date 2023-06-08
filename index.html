@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
+
 <head>
-     <meta charset = "UTF-8">
+     <meta charset="UTF-8">
      <link rel="stylesheet" href="style1.css">
      <title>Encrypt1</title>
-     <script type="text/javascript"src="script1.js"></script>
+     <script type="text/javascript" src="script1.js"></script>
 </head>
 
 
@@ -13,36 +14,32 @@
      <main>
           <section>
                <div>
-               <textarea class="textEncrypt"  id="textEncrypt" cols="30" rows="10"></textarea>
-               <button class="buttonEncrypt" type="button" id="buttonEncrypt" >Encrypt</button>
-               <button class="buttonDecrypt" type="button" id="buttonDecrypt" >Decrypt</button>
-        
-               
-               
-          </div>
-  
-               </section>
-               
-               <section>
-                    <textarea class="message"  id="message" cols="30" rows="10"></textarea>
-                    
-               </section>
-          </main>
-            
-     </body>
-     <script>
-          var button1 = document.querySelector("#buttonEncrypt");
-          button1.onclick = encryptAll;
-          var button2 = document.querySelector("#buttonDecrypt");
-          button2.onclick = decryptAll;
-         
-
-          
-        
-     </script>
-       
-     </html> 
+                    <textarea class="textEncrypt" id="textEncrypt" cols="30" rows="10"></textarea>
+                    <button class="buttonEncrypt" type="button" id="buttonEncrypt">Encrypt</button>
+                    <button class="buttonDecrypt" type="button" id="buttonDecrypt">Decrypt</button>
 
 
 
-   
+               </div>
+
+          </section>
+
+          <section>
+               <textarea class="message" id="message" cols="30" rows="10"></textarea>
+
+          </section>
+     </main>
+
+</body>
+<script>
+     var button1 = document.querySelector("#buttonEncrypt");
+     button1.onclick = encryptAll;
+     var button2 = document.querySelector("#buttonDecrypt");
+     button2.onclick = decryptAll;
+
+
+
+
+</script>
+
+</html>

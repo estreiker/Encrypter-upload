@@ -1,28 +1,25 @@
-
-
-
-header{
-    text-align:left;
+header {
+    text-align: left;
     margin-left: 20%;
     color: rgb(193, 243, 252);
     font-size: 200%;
     margin-top: 5%;
 }
-body{
-    background: linear-gradient(to right, rgb(193, 243, 252), rgb(5, 129, 187));
-   
-    
-    backdrop-filter:  blur(8px)
-  
-  }
-  
- 
 
-.textEncrypt{
+body {
+    background: linear-gradient(to right, rgb(193, 243, 252), rgb(5, 129, 187));
+
+
+    backdrop-filter: blur(8px)
+}
+
+
+
+.textEncrypt {
 
     width: 50%;
     height: 700px;
-    background-color: #000 ;
+    background-color: #000;
     color: #fff;
     opacity: .5;
     position: absolute;
@@ -34,22 +31,22 @@ body{
     text-align: start;
     font-size: 200%;
     background-color: transparent 80%;
-    
+
 }
 
 
 .textEncrypt:focus {
-    outline:none
+    outline: none
 }
 
-    main{
-        display: flex
-    }
+main {
+    display: flex
+}
 
-.message{
+.message {
     width: 35%;
     height: 700px;
-    background-color: rgb(53, 53, 53) ;
+    background-color: rgb(53, 53, 53);
     color: #fff;
     opacity: .5;
     position: absolute;
@@ -57,21 +54,22 @@ body{
     border-radius: 2%;
     margin-top: 5%;
     border: none;
-    
-    
+
+
 }
-.message:focus{
+
+.message:focus {
     outline: none;
 }
 
-.buttons{
+.buttons {
 
     display: flex;
 }
 
-.buttonEncrypt{
+.buttonEncrypt {
     width: 20%;
-    cursor:pointer;
+    cursor: pointer;
     position: absolute;
     border-radius: 5px;
     margin-left: 6%;
@@ -80,12 +78,13 @@ body{
     font-style: oblique;
     font-size: 150%;
     background-color: rgb(216, 244, 248);
-    
+
 }
-.buttonDecrypt{
-   
+
+.buttonDecrypt {
+
     width: 20%;
-    cursor:pointer;
+    cursor: pointer;
     position: absolute;
     border-radius: 5px;
     margin-left: 30%;
@@ -97,7 +96,3 @@ body{
     background-color: rgb(43, 89, 107);
 
 }
-
-
-
-
