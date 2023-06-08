@@ -29,33 +29,4 @@ document.getElementById("message").innerText = textEncrypt;
 }
 
 
-function eraseAll(){ 
- 
-   var del1 = document.getElementById("message");
-   var deleting = del1.delete();
-   document.getElementById("message").innerText = null; 
-}
-function eraseAll2(){ 
- 
-    var del1 = document.getElementById("textEncrypt");
-    var deleting = del1.delete() ;
-    document.getElementById("textEncrypt").innerText = null; 
-    
-    }
-
-
-    function copyAll(){ 
-       
-      
-    document.getElementById("message").innerText = textEncrypt; 
-    
-    }
-
-    function updateClipboard(buttoncopy) {
-        navigator.clipboard.writeText(buttoncopy).then(() => {
-          /* clipboard successfully set */
-        }, () => {
-          /* clipboard write failed */
-        });
-      }
 
