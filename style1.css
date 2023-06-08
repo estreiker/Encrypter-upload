@@ -19,7 +19,7 @@ body{
  
 
 .textEncrypt{
-    offset-block-start: auto;
+
     width: 50%;
     height: 700px;
     background-color: #000 ;
@@ -98,35 +98,6 @@ body{
 
 }
 
-.buttonErase{
-    width: 7%;
-    cursor:pointer;
-    position: absolute;
-    border-radius: 5px;
-    margin-left: 55%;
-    margin-top: 800px;
-    border: none;
-    font-style: oblique;
-    font-size: 150%;
-    background-color: rgb(216, 244, 248);
-    
-}
-
-
-.buttonCopy{
-
-    width: 15%;
-    
-    margin-left: 70%;
-    position: absolute;
-    margin-top: 800px;
-    border: none;
-    border-radius: 5px;
-    font-style: oblique;
-    font-size: 150%;
-    background-color: rgb(193, 243, 252);
-   
-}
 
 
 
